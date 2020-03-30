@@ -106,7 +106,7 @@ function magic(url, file_append = 'bugs') {
         if (e) {
           console.error(e)
         } else {
-          console.log('northern done')
+          console.log(`northern_${file_append} done`)
         }
       }
     )
@@ -118,7 +118,7 @@ function magic(url, file_append = 'bugs') {
         if (e) {
           console.error(e)
         } else {
-          console.log('southern done')
+          console.log(`southern_${file_append} done`)
         }
       }
     )
